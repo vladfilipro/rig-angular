@@ -1,15 +1,18 @@
 {
     "name": "rig-angular",
     "version": "1.0.0",
-    "author": "",
-    "description": "A rigs plugin",
+    "author": "Vlad Filip ( vlad.filip.dev@gmail.com )",
+    "description": "A rig containing angular utilities",
     "keywords": [
         "rig",
         "rigs",
         "tool",
         "plugin",
         "rigsplugin",
-        "rigsfriendly"
+        "rigsfriendly",
+        "angular",
+        "templatecache",
+        "nginclude"
     ],
     "license": "MIT",
     "engines": {
@@ -18,13 +21,14 @@
     },
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/vladfilipro/rig-angular.git"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/vladfilipro/rig-angular/issues"
     },
     "dependencies": {
-        "gulp": "~3.9.1"
+        "gulp": "~3.9.1",
+        "gulp-angular-templatecache": "~1.8.0"
     },
     "devDependencies": {},
     "main": "./index.js"
